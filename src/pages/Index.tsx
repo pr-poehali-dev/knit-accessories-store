@@ -45,7 +45,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="text-2xl">🧶</div>
+              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm">32</div>
               <h1 className="text-2xl font-bold text-primary">32 Пары</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -188,7 +188,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="flex items-center justify-center space-x-3 mb-4">
-              <div className="text-2xl">🧶</div>
+              <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-primary font-bold text-sm">32</div>
               <h5 className="text-xl font-bold">32 Пары</h5>
             </div>
             <p className="text-primary-foreground/80 mb-4">
